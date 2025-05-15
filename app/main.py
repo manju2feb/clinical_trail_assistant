@@ -8,7 +8,7 @@ import math
 import os
 
 # ========== Configuration ==========
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "...........use your gok api key"
 GROQ_MODEL = "llama3-8b-8192"  # or use "mixtral-8x7b-32768"
 #VECTORSTORE_PATH = "../vectorstore"
 
