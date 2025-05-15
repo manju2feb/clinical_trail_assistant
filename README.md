@@ -38,3 +38,11 @@ Ask questions like:
 - *“What are the Phase 3 cancer trials in the United States?”*
 - *“Which clinical trials are sponsored by Pfizer?”*
 - *“Are there any ongoing COVID-19 vaccine trials in India?”*
+
+# Try it yourself
+git clone 
+cd clinical_trail_assistant
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+streamlit run streamlit_app/chat_ui.py
+
