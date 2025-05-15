@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+requests
+streamlit
+pandas
+
+langchain
+langchain-community
+langchain-huggingface
+
+sentence-transformers
+faiss-cpu
+transformers

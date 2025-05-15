@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: clinical-ui
+    runtime: python
+    repo: https://github.com/YOUR_USERNAME/clinical-trial-assistant
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run streamlit_app/chat_ui.py --server.port 10001 --server.address 0.0.0.0
+    plan: free
+    autoDeploy: true
