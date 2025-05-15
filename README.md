@@ -41,8 +41,12 @@ Ask questions like:
 
 # Try it yourself
 git clone 
+
 cd clinical_trail_assistant
+
 pip install -r requirements.txt
+
 uvicorn app.main:app --reload
+
 streamlit run streamlit_app/chat_ui.py
 
